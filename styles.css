@@ -1,4 +1,33 @@
+:root {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  --max-width: 68ch;
+=======
+  --font: system-ui;
+  --max-width: 68ch;
+=======
+  --font: system-ui;
+  --max-width: 60ch;
+>>>>>>> d5723b5693dadbff93474039df99571405dc6aa9
+  --body-padding: 2rem;
+
+  --color-text: rgb(0, 0, 0, 0.9);
+  --color-text-light: rgb(0, 0, 0, 0.6);
+<<<<<<< HEAD
+>>>>>>> dd7e7df (create more custom properties)
+=======
+>>>>>>> d5723b5693dadbff93474039df99571405dc6aa9
+}
+
 body {
+  width: min(var(--max-width), 100% - var(--body-padding));
   margin: 0 auto;
-  width: min(100% - 2rem, 68ch);
+  color: var(--color-text);
+  font-family: var(--font);
+}
+
+footer {
+  margin-top: 2rem;
+  color: var(--color-text-light);
+  font-size: 0.8rem;
 }
